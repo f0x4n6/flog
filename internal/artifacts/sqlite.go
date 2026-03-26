@@ -38,7 +38,7 @@ func History(src string) (urls []Url, err error) {
 		return
 	}
 
-	defer db.Close()
+	defer func() { _ = db.Close() }()
 
 	rows, err := db.Query(query)
 
@@ -46,7 +46,7 @@ func History(src string) (urls []Url, err error) {
 		return
 	}
 
-	defer rows.Close()
+	defer func() { _ = rows.Close() }()
 
 	for rows.Next() {
 		u := Url{}

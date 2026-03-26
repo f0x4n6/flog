@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cuhsat/futils/pkg/sys"
+	"github.com/f0x4n6/futils/pkg/sys"
 )
 
 const (

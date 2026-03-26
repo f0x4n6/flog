@@ -2,6 +2,7 @@ github.com/cuhsat/futils v0.1.4 h1:WqmxrqxNj8xU+6eN9FjKoh5hyPTM4owO7PtsyrEgzX0=
 github.com/cuhsat/futils v0.1.4/go.mod h1:gmXOAkewon3JlY3g+fkCt1NnRyPU+L5Lv3lKBNAANac=
 github.com/dustin/go-humanize v1.0.1 h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=
 github.com/dustin/go-humanize v1.0.1/go.mod h1:Mu1zIs6XwVuF/gI1OepvI0qD18qycQx+mFykh5fBlto=
+github.com/f0x4n6/futils v0.1.5/go.mod h1:KeAOMLgET+KPNWcIptvatVleF9qw336tlD/sXcgcLdQ=
 github.com/google/pprof v0.0.0-20250317173921-a4b03ec1a45e h1:ijClszYn+mADRFY17kjQEVQ1XRhq2/JR1M3sGqeJoxs=
 github.com/google/pprof v0.0.0-20250317173921-a4b03ec1a45e/go.mod h1:boTsfXsheKC2y+lKOCMpSfarhxDeIzfZG1jqGcPl3cA=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=

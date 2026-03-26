@@ -1,4 +1,4 @@
-// https://www.elastic.co/docs/reference/ecs/ecs-field-reference
+// Package ecs source: https://www.elastic.co/docs/reference/ecs/ecs-field-reference
 package ecs
 
 import (

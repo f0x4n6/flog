@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cuhsat/futils/pkg/sys"
+	"github.com/f0x4n6/futils/pkg/sys"
 )
 
 func BaseFile(name string) string {
@@ -50,7 +50,7 @@ func ConsumeJson(name string) (lines []string, err error) {
 		lines = append(lines, fs.Text())
 	}
 
-	f.Close()
+	_ = f.Close()
 
 	err = os.Remove(name)
 
@@ -67,7 +67,7 @@ func ConsumeCsv(name string) (lines []string, err error) {
 	rr, err := csv.NewReader(f).ReadAll()
 
 	if len(rr) <= 1 {
-		f.Close()
+		_ = f.Close()
 		return
 	}
 
@@ -88,7 +88,7 @@ func ConsumeCsv(name string) (lines []string, err error) {
 		lines = append(lines, string(b))
 	}
 
-	f.Close()
+	_ = f.Close()
 
 	err = os.Remove(name)
 

@@ -8,16 +8,16 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/cuhsat/futils/pkg/hash"
-	"github.com/cuhsat/futils/pkg/sys"
+	"github.com/f0x4n6/futils/pkg/hash"
+	"github.com/f0x4n6/futils/pkg/sys"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/cuhsat/flog/internal/artifacts"
-	"github.com/cuhsat/flog/internal/ecs"
+	"github.com/f0x4n6/flog/internal/artifacts"
+	"github.com/f0x4n6/flog/internal/ecs"
 )
 
 const (
-	Version = "0.5.2"
+	Version = "0.5.5"
 )
 
 type fnlog func(string, string, bool) ([]string, error)
@@ -249,7 +249,7 @@ func write(a any, dst string, jp bool) (log string, err error) {
 		return
 	}
 
-	defer f.Close()
+	defer func() { _ = f.Close() }()
 
 	_, err = f.Write(b)
 

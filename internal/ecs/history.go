@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cuhsat/flog/internal/artifacts"
+	"github.com/f0x4n6/flog/internal/artifacts"
 )
 
 func MapHistory(fu *artifacts.Url, src string) (log *Log, err error) {

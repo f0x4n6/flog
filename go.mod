@@ -1,9 +1,9 @@
-module github.com/cuhsat/flog
+module github.com/f0x4n6/flog
 
-go 1.24
+go 1.26
 
 require (
-	github.com/cuhsat/futils v0.1.4
+	github.com/f0x4n6/futils v0.1.5
 	golang.org/x/sync v0.16.0
 	modernc.org/sqlite v1.38.1
 )

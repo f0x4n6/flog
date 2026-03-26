@@ -6,7 +6,7 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	os.Setenv("EZTOOLS", "../../bin")
+	_ = os.Setenv("EZTOOLS", "../../bin")
 	os.Exit(m.Run())
 }
 

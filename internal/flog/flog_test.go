@@ -6,15 +6,15 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cuhsat/futils/pkg/hash"
-	"github.com/cuhsat/futils/pkg/sys"
-	"github.com/cuhsat/futils/pkg/zip"
+	"github.com/f0x4n6/futils/pkg/hash"
+	"github.com/f0x4n6/futils/pkg/sys"
+	"github.com/f0x4n6/futils/pkg/zip"
 )
 
 func TestMain(m *testing.M) {
 	sys.Progress = nil
 
-	os.Setenv("EZTOOLS", "../../bin")
+	_ = os.Setenv("EZTOOLS", "../../bin")
 	os.Exit(m.Run())
 }
 

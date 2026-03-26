@@ -33,4 +33,5 @@ download "SBECmd" && install "SBECmd"
 
 rm -rf $TMP
 
-export EZTOOLS=$(realpath $BIN)
+EZTOOLS=$(realpath $BIN)
+export EZTOOLS

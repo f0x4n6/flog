@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cuhsat/futils/pkg/sys"
+	"github.com/f0x4n6/futils/pkg/sys"
 
-	"github.com/cuhsat/flog/internal/tools"
+	"github.com/f0x4n6/flog/internal/tools"
 )
 
 func Evtxe(src, dir string) (log string, err error) {
