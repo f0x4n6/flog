@@ -28,9 +28,9 @@ import (
 	"flag"
 	"io"
 
-	"github.com/f0x4n6/futils/pkg/sys"
+	"go.foxforensics.dev/futils/pkg/sys"
 
-	"github.com/f0x4n6/flog/internal/flog"
+	"go.foxforensics.dev/flog/internal/flog"
 )
 
 func main() {

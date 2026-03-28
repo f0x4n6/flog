@@ -1,7 +1,7 @@
 package ecs
 
 import (
-	"github.com/f0x4n6/flog/internal/types"
+	"go.foxforensics.dev/flog/internal/types"
 )
 
 func MapEvent(s, src string) (log *Log, err error) {

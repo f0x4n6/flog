@@ -8,16 +8,16 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/f0x4n6/futils/pkg/hash"
-	"github.com/f0x4n6/futils/pkg/sys"
+	"go.foxforensics.dev/futils/pkg/hash"
+	"go.foxforensics.dev/futils/pkg/sys"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/f0x4n6/flog/internal/artifacts"
-	"github.com/f0x4n6/flog/internal/ecs"
+	"go.foxforensics.dev/flog/internal/artifacts"
+	"go.foxforensics.dev/flog/internal/ecs"
 )
 
 const (
-	Version = "0.5.5"
+	Version = "0.5.6"
 )
 
 type fnlog func(string, string, bool) ([]string, error)

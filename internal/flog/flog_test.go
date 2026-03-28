@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/f0x4n6/futils/pkg/hash"
-	"github.com/f0x4n6/futils/pkg/sys"
-	"github.com/f0x4n6/futils/pkg/zip"
+	"go.foxforensics.dev/futils/pkg/hash"
+	"go.foxforensics.dev/futils/pkg/sys"
+	"go.foxforensics.dev/futils/pkg/zip"
 )
 
 func TestMain(m *testing.M) {

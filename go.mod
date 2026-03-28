@@ -1,9 +1,9 @@
-module github.com/f0x4n6/flog
+module go.foxforensics.dev/flog
 
 go 1.26
 
 require (
-	github.com/f0x4n6/futils v0.1.5
+	go.foxforensics.dev/futils v0.1.7
 	golang.org/x/sync v0.16.0
 	modernc.org/sqlite v1.38.1
 )
